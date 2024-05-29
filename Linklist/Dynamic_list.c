@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<stdlib.h>
+#include<stdlib.h>   //<stdlib.h> allows usage of malloc function..
 struct node{
     int info;
     struct node *link;
@@ -28,6 +28,5 @@ while(ptr!=NULL){
     free(temp);
     free(temp1);
     free(temp2);
-
 
 }
